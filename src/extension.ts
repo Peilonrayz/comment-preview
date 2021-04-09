@@ -126,7 +126,7 @@ class HoverProvider implements vscode.HoverProvider {
 		);
 		if (comments.length) {
 			let text = comments[0].text;
-			console.log(text);
+			// console.log(text);
 			let content = new vscode.MarkdownString();
 			content.appendMarkdown(text);
 			return new vscode.Hover(content);

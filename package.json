@@ -1,7 +1,11 @@
 {
-  "name": "comment-wrap",
-  "displayName": "Comment Wrap",
-  "description": "Wrap comments not code",
+  "name": "comment-preview",
+  "displayName": "Comment Preview",
+  "description": "Preview markdown comments",
+  "publisher": "Peilonrayz",
+  "repository": {
+    "url": "https://github.com/Peilonrayz"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.55.0"
@@ -13,14 +17,7 @@
     "*"
   ],
   "main": "./out/extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "comment-wrap.helloWorld",
-        "title": "Hello World"
-      }
-    ]
-  },
+  "contributes": {},
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
